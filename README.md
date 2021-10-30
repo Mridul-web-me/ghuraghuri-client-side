@@ -40,10 +40,10 @@ Online Booking Engine
 
 You don’t need to deal with other booking platforms but include a booking engine on your own software which offers:
 
-* ✔ Interactive search
-* ✔ Filtering
-* ✔ Easy editing
-* ✔ Reservation calendar
+*✔ Interactive search
+*✔ Filtering
+*✔ Easy editing
+*✔ Reservation calendar
 
 * №7 Travel Partner Network
 As it’s said, “One hand washes the other, both hands wash the face”. A travel business increases its level of success by cooperating with other companies and services through the website platform. The travel partner network is especially essential if you hope to partner with foreign travel agencies.
