@@ -1,0 +1,32 @@
+.popularDestination{
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+.popularDestination .card-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+}
+.popularDestination .card-title{
+    color: #fff;
+    font-size: 26px;
+}
+.popularDestination .card-btn {
+    border: none;
+    background: aqua;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.popularDestination .card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    scroll-behavior: smooth;
+    color: #FF4A52;
+}
+.popularDestination .card:hover .card-title .card-btn{
+    color: #FF4A52;
+}
