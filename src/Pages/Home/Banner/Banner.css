@@ -1,0 +1,5 @@
+.carousel-caption.d-none.d-md-block {
+    position: absolute;
+    background: aqua;
+    bottom: 50%;
+}

@@ -1,0 +1,10 @@
+.dropdownItem {
+   text-align: start;
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+
+.dropdown:hover .dropdownItem{
+    display: block;
+}
