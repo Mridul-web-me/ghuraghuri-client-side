@@ -1,5 +1,29 @@
 .carousel-caption.d-none.d-md-block {
     position: absolute;
+    /* background: aqua; */
+    bottom: 30%;
+}
+.carousel h1 {
+    font-family: cursive;
+    font-size: 80px;
+    color: #040e27;
+}
+
+.carousel .w-100 {
+    width: 100%!important;
+    height: 600px;
+}
+
+.banner-btn{
+    border: none;
+    background: #FF4A52;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin: 50px;
+}
+
+.banner-btn:hover{
     background: aqua;
-    bottom: 50%;
 }

@@ -11,6 +11,7 @@ import Blog from './Pages/Home/Blog/Blog';
 import Contact from './Pages/Home/Contact/Contact';
 import Nav from './Pages/Home/Nav/Nav';
 import Footer from './Pages/Footer/Footer';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 function App() {
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route exact path='/login'>
             <Login></Login>
+          </Route>
+          <Route path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>

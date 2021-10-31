@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import './Nav.css'
 
 function Nav() {
-    // const { user, logOut } = useAuth();
+    // const { user, logOut } = useFirebase();
     return (
 
         <div className="menu sticky-top">

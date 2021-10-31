@@ -1,4 +1,5 @@
 import React from 'react';
+import './Banner.css'
 import banner1 from '../../../img/banner/banner1.jpg';
 import banner2 from '../../../img/banner/banner2.jpg';
 import banner3 from '../../../img/banner/banner3.jpg';
@@ -11,22 +12,24 @@ const Banner = () => {
                 <div className="carousel-item active">
                     <img src={banner1} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h1>Australia</h1>
+                        <button className="banner-btn">Explore Now</button>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={banner2} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h1>St. Martin</h1>
+                        <button className="banner-btn">Explore Now</button>
+
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={banner3} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h1>Nepal </h1>
+                        <button className="banner-btn">Explore Now</button>
+
                     </div>
                 </div>
             </div>

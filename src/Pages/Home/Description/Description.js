@@ -1,5 +1,5 @@
 import React from 'react'
-// import { useParams } from 'react-router'
+import { useParams } from 'react-router'
 
 const Description = () => {
     // const [description, setDescription] = useState([]);
@@ -8,10 +8,10 @@ const Description = () => {
     //         .then(res => res.json())
     //         .then(data => setDescription(data));
     // }, [])
-    // const [_id] = useParams();
+    const [_id] = useParams();
     return (
         <div>
-
+            <p>{_id}</p>
         </div>
     )
 }
