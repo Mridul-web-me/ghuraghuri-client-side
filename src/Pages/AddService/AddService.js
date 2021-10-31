@@ -18,6 +18,7 @@ const Service = () => {
     };
     return (
         <div>
+            <h2>Add Service</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder="name" />
                 <input {...register("location")} placeholder="Location" />

@@ -5,7 +5,7 @@ import Destinations from './Destinations/Destinations'
 // import Extra from './About/About'
 import PopularDestination from './PopularDestination/PopularDestination'
 import Subscribe from './Subscribe/Subscribe'
-
+import AddService from '../AddService/AddService'
 const Home = () => {
     return (
         <div>
@@ -14,7 +14,7 @@ const Home = () => {
             <Subscribe></Subscribe>
             <Destinations></Destinations>
             <About></About>
-
+            <AddService></AddService>
         </div>
     )
 }
