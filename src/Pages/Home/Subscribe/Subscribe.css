@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-input[type="email"] {
+.subscribe input[type="email"] {
     padding: 5px;
     width: 300px;
     border: none;
@@ -18,7 +18,7 @@ input[type="email"] {
 }
 
 
-input[type="submit"] {
+.subscribe input[type="submit"] {
     background: #FF4A52;
     color: #fff;
     border: none;

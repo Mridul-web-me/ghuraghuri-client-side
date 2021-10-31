@@ -1,0 +1,16 @@
+.destinations{
+    margin-top: 80px;
+}
+.destinations-content{
+    margin-bottom: 50px
+}
+.destinations button {
+    border: bac;
+    border: none;
+    background: #FF4A52;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin: 50px;
+}

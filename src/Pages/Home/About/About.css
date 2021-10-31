@@ -1,0 +1,20 @@
+
+.about{
+    margin-bottom: 80px;
+}
+
+.about .text-start.my-4{
+    color: #040e27;
+}
+
+.about .row .col-md-4 img{
+    margin: 20px 0;
+}
+.about .row .col-md-4 h4{
+    color: #040e27;
+}
+
+.recent-trips {
+    color: #040e27;
+    margin-bottom: 30px;
+}
