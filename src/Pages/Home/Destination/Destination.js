@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 const Destination = ({ destination }) => {
-    const { name, imgUrl, location, price, review, duration } = destination;
+    const { _id, name, imgUrl, location, price, review, duration } = destination;
     return (
         <div className="destination">
             <Col>
@@ -12,7 +12,8 @@ const Destination = ({ destination }) => {
                     <Card.Img variant="top" src={imgUrl} />
                     <Card.Body>
                         <div className="body1">
-                            <Link to="/description">{name}</Link>
+                            {/* <Link to="/description">{name}</Link> */}
+                            <div className="h3">{name}</div>
                             <Card.Text>{location}</Card.Text>
                             <Card.Text>
                                 <i class="fas fa-star"></i>
@@ -26,7 +27,11 @@ const Destination = ({ destination }) => {
                             <div className="price">${price}</div>
                             <Card.Text><i class="far fa-clock"></i> {duration}</Card.Text>
                         </div>
+
                     </Card.Body>
+                    <Link to={`/description/${_id}`}>
+                        <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+                    </Link>
                 </Card>
             </Col>
         </div>

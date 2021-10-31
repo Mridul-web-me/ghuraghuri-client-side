@@ -63,32 +63,32 @@ const Footer = () => {
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src={img1} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img1} class="card-img-top" alt="..." />
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src={img2} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img2} class="card-img-top" alt="..." />
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src={img3} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img3} class=" card-img-top" alt="..." />
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src={img4} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img4} class=" card-img-top" alt="..." />
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src={img5} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img5} class=" card-img-top" alt="..." />
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src={img6} class="card-img-top" alt="..." />
+                                    <img className="img-fluid" src={img6} class="card-img-top" alt="..." />
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,9 @@ import img4 from '../../../img/extra/banner1.jpg'
 import img5 from '../../../img/extra/banner2.jpg'
 import img6 from '../../../img/extra/banner3.jpg'
 
-const Extra = () => {
+
+const Extra = ({ authorize }) => {
+
     return (
         <div className="about">
             <div className="container">
@@ -40,6 +42,7 @@ const Extra = () => {
                     <div class="col">
                         <div class="card">
                             <img src={img4} class="card-img-top" alt="..." />
+                            <p><small class="text-muted">27 Sep 2020</small></p>
                             <div class="card-body">
                                 <h5 class="card-title">Journeys Are Best Measured In New Friends</h5>
                             </div>
@@ -48,6 +51,7 @@ const Extra = () => {
                     <div class="col">
                         <div class="card">
                             <img src={img5} class="card-img-top" alt="..." />
+                            <p><small class="text-muted">20 Oct 2020</small></p>
                             <div class="card-body">
                                 <h5 class="card-title">Journeys Are Best Measured In New Friends</h5>
                             </div>
@@ -56,6 +60,7 @@ const Extra = () => {
                     <div class="col">
                         <div class="card">
                             <img src={img6} class="card-img-top" alt="..." />
+                            <p><small class="text-muted">03 Dec 2020</small></p>
                             <div class="card-body">
                                 <h5 class="card-title">Journeys Are Best Measured In New Friends</h5>
                             </div>

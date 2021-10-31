@@ -4,7 +4,7 @@ import error from '../../img/error.png'
 const NotFound = () => {
     return (
         <div>
-            <img src={error} alt="" />
+            <img className="img-fluid" src={error} alt="" />
         </div>
     )
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import useAuth from '../../../hooks/useAuth';
+import useFirebase from '../../../hooks/useFirebase';
+// import useAuth from '../../../hooks/useAuth';
 // import useAuth from '../../../hooks/useAuth';
 // import useAuth from '../../../hooks/useAuth';
 // import useFirebase from '../../../hooks/useFirebase';
 import './Nav.css'
 
 function Nav() {
-    // const { user, logOut } = useFirebase();
+    const { user, logOut } = useFirebase();
     return (
 
         <div className="menu sticky-top">
@@ -43,22 +45,35 @@ function Nav() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">Blog</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/login">Contact</Link>
-                            </li>
-                            {/* <li className="nav-item">
+                            <div class="dropdown">
+                                <button class="btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-user"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    {
+                                        user?.email ?
+                                            <ul>
+                                                <Link
+                                                    className="nav-link login "
+                                                    onClick={logOut} to="/"
+                                                >Logout</Link>
+                                                <Link
+                                                    className="nav-link login "
+                                                    to="/myBooking"
+                                                >My Booking</Link>
+                                                <Link
+                                                    className="nav-link login "
+                                                    to="/manageBooking"
+                                                >Manage All Bookings</Link>
+                                            </ul>
 
-                                {
-                                    user?.email ?
-                                        <Link
-                                            className="nav-link login text-white"
-                                            onClick={logOut} to="/"
-                                        >Logout</Link>
-                                        :
-                                        <Link className="nav-link login text-white" to="/login">Login</Link>
-                                }
-                            </li>
-                            <p className="m-2">{user.displayName}</p> */}
+                                            :
+                                            <Link className="nav-link login" to="/login">Login</Link>
+                                    }
+
+                                </ul>
+                            </div>
+                            <p className="m-2">{user.displayName}</p>
                         </ul>
                     </div>
                 </div>
